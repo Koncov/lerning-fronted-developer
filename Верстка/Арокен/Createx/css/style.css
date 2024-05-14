@@ -183,14 +183,14 @@ html, body {
 
 .header__user-nav::before {
     content: "";
-    position: abs  olute;
-    top: 50%;  
-    left: 0;  
-    transform: tr  anslateY(-50%);
-    display: bloc  k;
-    background: u  rl("../images/icons/user-icon.svg") no-repeat;
-    width: 20px;  
-    height: 20px;  
+    position: abs olute;
+    top: 50%;
+    left: 0;
+    transform: tr anslateY(-50%);
+    display: bloc k;
+    background: u rl("../images/icons/user-icon.svg") no-repeat;
+    width: 20px;
+    height: 20px;
 }
 
 .header__user-btn {
@@ -221,6 +221,7 @@ html, body {
     align-items: center;
     color: #1E212C;
     margin: auto 0;
+    padding-top: 128px;
 }
 
 .header__content {
@@ -270,6 +271,7 @@ html, body {
     align-items: center;
     color: #1E212C;
     margin-bottom: 80px;
+    padding-top: 189px;
 }
 
 .header__row>span {
