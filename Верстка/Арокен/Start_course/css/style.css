@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src:
+    local("MuseoSansCyrl"),
+    url("../fonts/MuseoSansCyrl300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.nav-link {
+  position: relative;
+  color: #000;
+  font-family: "Museo Sans Cyrl";
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav-link:hover::before {
+  left: 0;
+  right: 0;
+  transition: right 0.3s;
+}
+
+.nav-link::before {
+  background: #000;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 100%;
+  position: absolute;
+  right: 100%;
+  transition: right 0s 0.2s, left 0.2s;
+}
+
+.nav-link:last-child {
+  margin-right: 0px;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 23px;
+}
+
+.social-link:last-child {
+  margin-right: 0px;
+}
